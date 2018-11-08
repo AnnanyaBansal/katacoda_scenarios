@@ -1,6 +1,6 @@
 {
-  "title": "Creating Bin For Spark Using Bluedata Workbench",
-  "description": "Process to build Spark App with BlueData Workbench for BlueData's EPIC platform.",
+  "title": "Creating Bin For Mysql Using Bluedata Workbench",
+  "description": "Process to build Mysql App with BlueData Workbench for BlueData's EPIC platform.",
   "difficulty": "intermediate",
   "time": "20 minutes",
   "details": {
@@ -11,7 +11,7 @@
     { "title": "Step 4 - Create the startscript", "text": "step4.md"},
     { "title": "Step 5 - Creating app config files", "text": "step5.md"},
     { "title": "Step 6 - Building the Bin File using App Workbench", "text": "step6.md"},
-     { "title": "Step 7 - Checking the Bin File For MySQL", "text": "step7.md"}
+    { "title": "Step 7 - Checking the Bin File For MySQL", "text": "step7.md"}
     ],
     "intro": {
       "text": "intro.md",

@@ -12,7 +12,7 @@ Copying systemd.service file.<br>
 `cp ~/test/systemd.service ~/Mysql/appconfig`{{execute}}
 <br><br>
 To view the content of systemd.service file, please execute the below command.<br>
-`cat ~/Mysql/appconfig/system.service`{{execute}}
+`cat ~/Mysql/appconfig/systemd.service`{{execute}}
 
 ## Task 3:
 Copying configure_java8.sh file which is used for configuring java.<br>

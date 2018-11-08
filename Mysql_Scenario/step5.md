@@ -5,14 +5,14 @@ Copying the appjob file.<br>
 `cp ~/test/appjob  ~/Mysql/appconfig`{{execute}}
 <br><br>
 To view thw content of appjob file, please execute the below command.<br>
-`cat  ~/Mysql/appconfig/hadoop`{{execute}}
+`cat  ~/Mysql/appconfig/appjob`{{execute}}
 
 ## Task 2:
 Copying systemd.service file.<br>
 `cp ~/test/systemd.service ~/Mysql/appconfig`{{execute}}
 <br><br>
 To view the content of systemd.service file, please execute the below command.<br>
-`cat ~/Mysql/appconfig/spark-env.sh`{{execute}}
+`cat ~/Mysql/appconfig/system.service`{{execute}}
 
 ## Task 3:
 Copying configure_java8.sh file which is used for configuring java.<br>

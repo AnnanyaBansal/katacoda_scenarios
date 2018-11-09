@@ -49,22 +49,10 @@ Replacing Pattern from Some files.
 <br><br>`appconfig package`{{execute}}
 
 ## Task 9:
-Now we are defining the order of services in the order in which they are brought up.
-The services defined here are only registered and started if the specific node is expected to run the service.
-
-`appconfig autogen --srvcid spark_master --sysv spark-master`{{execute}}
-<br><br>`appconfig autogen --srvcid spark_worker --sysv spark-slave`{{execute}}
-<br><br>`appconfig autogen --srvcid mysql --sysv mysqld`{{execute}}
-<br><br>`appconfig autogen --srvcid zeppelin-notebook --sysv zeppelin-server`{{execute}}
-<br><br>`appconfig autogen --generate`{{execute}}
-<br><br>`appconfig package`{{execute}}
-
-
-## Task 10:
 Setting the logo for bin.
 <br>`logo file --filepath Logo_Spark.png`{{execute}}
 
-## Task 12:
+## Task 10:
 Catalog the package for Centos
 
 `image build --basedir image/centos/spark --image-repotag bluedata/sparkbase:2.0`{{execute}}

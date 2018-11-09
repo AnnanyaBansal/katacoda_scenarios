@@ -1,6 +1,4 @@
 
-## Step 04 - Creating Dockerfile
-
 Let’s create a Dockerfile. 
 
 The Dockerfile is created under the /helloworld/image/centos directory

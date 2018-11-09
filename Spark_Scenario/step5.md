@@ -13,21 +13,21 @@ Copy the configure java file.<br>
 `cp ~/test/configure_java8.sh ~/Spark/image/centos/spark`{{execute}}
 <br><br>
 To view the content of configure_java8.sh  file, execute the below command.<br>
-`cat ~/Spark/appconfig/configure_java8.sh`{{execute}}
+`cat ~/Spark/image/centos/spark/configure_java8.sh`{{execute}}
 
 ## Task 3:
 Copy the spark-slave file which is used for bringing up and down the spark slave service.<br>
 `cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-slave  file.<br>Please execute the below command.<br>
-`cat ~/Spark/appconfig/spark-slave`{{execute}}
+`cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
 
 ## Task 4:
 Copy the spark-master file which is used for bringing up and down the spark master service.<br>
 `cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-master  file.<br>Please execute the below command.<br>
-`cat ~/Spark/appconfig/spark-master`{{execute}}
+`cat ~/Spark/appconfig/spark/spark-master`{{execute}}
 
 ## Task 5:
 Copy the total_vcores.sh script.<br>
@@ -48,7 +48,7 @@ Copy the spark-defaults.conf file.<br>
 `cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file.<br>Please execute the below command.<br>
-`cat ~/Spark/appconfig/spark-defaults.conf`{{execute}}
+`cat ~/Spark/appconfig/spark/spark-defaults.conf`{{execute}}
 
 ## Task 8:
 Copy the hadoop file.<br>

@@ -1,6 +1,4 @@
 
-## Step 03 - Creating directory for the Application
-
 Create a directory for the Hello World Application. This is where all the data will reside. Navigate to the directory after creating it.”
 
 `mkdir -p ~/src/catalog/helloworld`{{execute}}

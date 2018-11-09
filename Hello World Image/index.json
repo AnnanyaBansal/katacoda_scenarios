@@ -7,16 +7,16 @@
     "steps": [
     { "title": "Installation of App workbench","text": "step1.md"},
     { "title": "Installation of App workbench","text": "step2.md"},
-    { "title": “Install Git”,”text": "step3.md"},
-    { "title": "Clone sample data from GitHub“,”text": "step4.md"},
-    { "title": "Create directory for hello world app”,”text": "step5.md"},
-    { "title": "Creating Dockerfile”,”text”: "step6.md"},
-    { "title": "Creating .wb file”,”text": "step7.md"},
-    { "title": "Creating index.html file”,”text": "step8.md"},
-    { "title": "Creating Logo file”,”text": "step9.md"},
-    { "title": “Execute the .wb file”,”text": "step10.md"},
-    { "title": “Display the content of json file”,”text": "step11.md"},
-    { "title": “Verifying the created bin file”,”text": "step12.md"}
+    { "title": "Install Git","text": "step3.md"},
+    { "title": "Clone sample data from GitHub","text": "step4.md"},
+    { "title": "Create directory for hello world app","text": "step5.md"},
+    { "title": "Creating Dockerfile","text": "step6.md"},
+    { "title": "Creating .wb file","text": "step7.md"},
+    { "title": "Creating index.html file","text": "step8.md"},
+    { "title": "Creating Logo file","text": "step9.md"},
+    { "title": "Execute the .wb file","text": "step10.md"},
+    { "title": "Display the content of json file","text": "step11.md"},
+    { "title": "Verifying the created bin file","text": "step12.md"}
               ],
     "intro": {
       "text": "intro.md",

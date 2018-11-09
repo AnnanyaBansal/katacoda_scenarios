@@ -1,6 +1,4 @@
 
-## Step 01 - Creating Directory
-
 Now that we have App Workbench installed
 
 Install Git

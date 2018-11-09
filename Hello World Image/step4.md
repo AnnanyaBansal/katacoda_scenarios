@@ -1,6 +1,4 @@
 
-## Step 02 - Cloning sample data from Github
-
 Clone data from the BlueData Github repository 
 
 `git clone -b ImageSamples https://github.com/bluedatainc/solutions.git`{{execute}}

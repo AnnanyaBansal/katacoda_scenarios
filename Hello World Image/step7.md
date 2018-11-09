@@ -1,6 +1,4 @@
 
-## Step 05 - Creating .wb file
-
 Create the .wb file
 
 Copy the .wb file from  the sample data to the helloworld directory

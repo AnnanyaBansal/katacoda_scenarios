@@ -7,4 +7,4 @@ Prerequisites:
 -Git
 
 This scenario is developed by:
-![alt text](https://www.bluedata.com/wp-content/themes/bluedata/img/logo.png)
+![alt text](https://theme.zdassets.com/theme_assets/893901/efec4daa46587b7cd2570cb01596b53d4863cdb1.jpg)

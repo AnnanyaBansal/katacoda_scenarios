@@ -1,6 +1,4 @@
 
-## Step 06 - Creating index.html file
-
 Create the index.html 
 
 Copy the index.html file from the sample data to the helloworld directory

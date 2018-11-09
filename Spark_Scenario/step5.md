@@ -2,7 +2,7 @@ In this step we would be creating some more files that are required for Spark Ap
 We already have reference files, we can just copy them to appropriate location.
 
 ## Task 1:
-Copy the appjob utlitily file.<br>
+Copy the appjob utility file.<br>
 `cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of appjob file, execute the below command.<br>

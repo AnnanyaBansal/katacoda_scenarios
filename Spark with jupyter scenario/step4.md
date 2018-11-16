@@ -3,27 +3,27 @@ We already have reference files, we can just copy them to appropriate location.
 
 ## Task 1:
 Copy the appjob utlitily file.<br>
-`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
-`cp ~/test/jupyter  ~/Spark/appconfig`{{execute}}
-`cp ~/test/jupyter_notebook_config.py  ~/Spark/appconfig`{{execute}}
-`cp ~/test/jupyterhub  ~/Spark/appconfig`{{execute}}
-`cp ~/test/jupyterhub_config.py  ~/Spark/appconfig`{{execute}}
-`cp ~/test/jupyter-server  ~/Spark/appconfig`{{execute}}
-`cp ~/test/logging.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/p_kernel.json  ~/Spark/appconfig`{{execute}}
-`cp ~/test/pam_mkhomedir.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/rstudio  ~/Spark/appconfig`{{execute}}
-`cp ~/test/rstudioserver  ~/Spark/appconfig`{{execute}}
-`cp ~/test/shinyserver  ~/Spark/appconfig`{{execute}}
-`cp ~/test/shiro.ini  ~/Spark/appconfig`{{execute}}
-`cp ~/test/macros.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/sq_kernel.json  ~/Spark/appconfig`{{execute}}
-`cp ~/test/start_jupyter.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/start_jupyterhub.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/start_rstudio.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/start_shinyserver.sh  ~/Spark/appconfig`{{execute}}
-`cp ~/test/startscript  ~/Spark/appconfig`{{execute}}
-`cp ~/test/utils.sh  ~/Spark/appconfig`{{execute}}
+`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/jupyter  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/jupyter_notebook_config.py  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/jupyterhub  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/jupyterhub_config.py  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/jupyter-server  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/logging.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/p_kernel.json  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/pam_mkhomedir.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/rstudio  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/rstudioserver  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/shinyserver  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/shiro.ini  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/macros.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/sq_kernel.json  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/start_jupyter.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/start_jupyterhub.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/start_rstudio.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/start_shinyserver.sh  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/startscript  ~/Spark/appconfig`{{execute}}<br>
+`cp ~/test/utils.sh  ~/Spark/appconfig`{{execute}}<br>
 
 Copy the configure jupyter file.<br>
 `cp ~/test/configure_jupyter.sh ~/Spark/image/centos`{{execute}}

@@ -1,0 +1,13 @@
+#%PAM-1.0
+#auth      requisite      pam_succeed_if.so uid >= 500 quiet
+#auth      required       pam_unix.so nodelay
+
+#account   required       pam_unix.so
+
+auth       required          pam_sepermit.so
+auth       include           password-auth
+# doing homedir creation early to make rstudio happy
+# can't use pam_mkhomedir.so here because it only implements session interface
+account    [default=ignore]  pam_exec.so /usr/bin/pam_mkhomedir.sh
+account    required          pam_nologin.so
+account    include           password-auth

@@ -1,5 +1,5 @@
 {
-  "title": "Create Spark Application on BlueData App Workbench",
+  "title": "Create Spark+jupyter Application on BlueData App Workbench",
   "description": "Process to build Spark App with BlueData Workbench on EPIC platform.",
   "difficulty": "intermediate",
   "time": "30 minutes",

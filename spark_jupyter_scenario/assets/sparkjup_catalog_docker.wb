@@ -21,19 +21,24 @@ role add worker 0+
 
 ## Define all services that are available in the virtual cluster.
 service add --srvcid jupyter-notebook --name "Jupyter Notebook" --scheme "http" --port 8888   \
-            --path "/" --display
+            --path "/" --display \
+	    --sysv jupyter-server
 
 service add --srvcid spark --name "Spark master" --scheme "http" --port 8080   \
             --path "/" --display
 
 
 service add --srvcid spark_worker --name "Spark worker" --scheme "http"        \
-            --port 8081 --path "/" --display
+            --port 8081 --path "/" --display \
+	    --sysv spark-slave
 service add --srvcid spark_master --name "Spark master" --scheme "spark"       \
-            --port 7077 --export_as "spark"
+            --port 7077 --export_as "spark" \
+	    --sysv spark-master
 service add --srvcid zeppelin-notebook --name "Zeppelin server" --scheme "http" \
-            --port 8055 --path "/" --display
-service add --srvcid mysql --name "Mysql server" --port 3306
+            --port 8055 --path "/" --display \
+	    --sysv zeppelin-server
+service add --srvcid mysql --name "Mysql server" --port 3306 \
+	    --sysv mysqld
 
 ## Define run time placement of the services
 clusterconfig new --configid default
@@ -44,7 +49,7 @@ clusterconfig assign --configid default --role worker --srvcids spark_worker
 
 ## Appconfiguration autogenenration.
 appconfig autogen --new --configapi 4
-
+ 
 appconfig autogen --pkgfile jupyter_notebook_config.py    	 \
 		  --destdir /root/.jupyter/
 appconfig autogen --pkgfile spark-defaults.conf spark-env.sh   \
@@ -104,11 +109,11 @@ appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@SPARK_MASTER@@
                   --macro GET_SERVICE_URL spark_master controller
 
 # node is expected to run the service.
-appconfig autogen --srvcid spark_master --sysv spark-master
-appconfig autogen --srvcid spark_worker --sysv spark-slave
-appconfig autogen --srvcid jupyter-notebook --sysv jupyter-server
-appconfig autogen --srvcid mysql --sysv mysqld
-appconfig autogen --srvcid zeppelin-notebook --sysv zeppelin-server
+#appconfig autogen --srvcid spark_master --sysv spark-master
+#appconfig autogen --srvcid spark_worker --sysv spark-slave
+#appconfig autogen --srvcid jupyter-notebook --sysv jupyter-server
+#appconfig autogen --srvcid mysql --sysv mysqld
+#appconfig autogen --srvcid zeppelin-notebook --sysv zeppelin-server
 
 appconfig autogen --generate
 appconfig package
@@ -119,10 +124,10 @@ logo file --filepath Logo_Spark.png
 ################################################################################
 #                        Catalog package for CentOS                            #
 ################################################################################
-image build --basedir image/centos --imgversion 1.0 --os centos
+image build --basedir image/centos --imgversion 1.0 --os centos6
 catalog save --filepath staging/jupyter100-centos.json --force
 sources package
-catalog package --os=centos
+catalog package
 
 ################################################################################
 #                        Catalog package for RHEL                              #

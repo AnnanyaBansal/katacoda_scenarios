@@ -34,7 +34,7 @@ RUN chmod +x /root/Anaconda3-4.0.0-Linux-x86_64.sh && /root/Anaconda3-4.0.0-Linu
 
 # Jupyter default root directory
 
-RUN R -e "devtools::install_github('IRkernel/IRkernel')"
+#RUN R -e "devtools::install_github('IRkernel/IRkernel')"
 
 RUN mkdir -p /root/.ipython/kernels/pyspark 
 ADD configure_jupyter.sh /root/configure_jupyter.sh

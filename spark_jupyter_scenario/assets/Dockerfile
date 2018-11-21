@@ -21,7 +21,8 @@ RUN yum install -y expect mysql-server mysql-connector-java             \
 RUN R -e "install.packages('devtools', repos = 'http://cran.us.r-project.org')"
 RUN R -e "install.packages('knitr', repos = 'http://cran.us.r-project.org')"
 RUN R -e "install.packages('ggplot2', repos = 'http://cran.us.r-project.org')"
-RUN R -e "install.packages(c('devtools','mplot', 'googleVis'), repos = 'http://cran.us.r-project.org'); require(devtools); install_github('ramnathv/rCharts')"
+RUN R -e "install.packages(c('devtools','mplot', 'googleVis'), repos = 'http://cran.us.r-project.org')"
+#require(devtools); install_github('ramnathv/rCharts')"
 
 RUN sudo yum -y install https://centos6.iuscommunity.org/ius-release.rpm
 RUN sudo yum -y install python35u

@@ -24,7 +24,6 @@
     },
     "assets": {
        "host01": [
-                 {"file": "bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin", "target": "/root/test" },
 		{"file": "cdh515.json", "target": "/root/test", "chmod": "+x"},
 		{"file": "cdh515.wb", "target": "/root/test", "chmod": "+x"},
 		{"file": "Dockerfile", "target": "/root/test"}

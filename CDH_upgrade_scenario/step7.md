@@ -5,4 +5,4 @@ We already have a reference json file. We just need to replace the current json 
 <br>`cp ~/task/cdh515.json ~/Source/CDH/`{{execute}}
 
 To view the content of the file, execute the following
-`cat ~/Source/CDH/cdh515.json`{{execute}}
+<br>`cat ~/Source/CDH/cdh515.json`{{execute}}
